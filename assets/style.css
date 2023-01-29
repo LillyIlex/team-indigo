@@ -1,0 +1,9 @@
+#nav {
+    display: inline-block;
+    position: relative;
+    left: 60%;
+}
+
+#nav-link {
+    transform: scale(1);
+}
