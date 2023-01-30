@@ -40,4 +40,5 @@ footer {
     text-align: center;
 }
 
+#more, #moreLil, #moreCate {display: none;}
 /* media query to make nav bar responsive for mobile viewpoint */

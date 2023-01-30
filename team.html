@@ -46,7 +46,7 @@
           <img src="assets/Images/Laila.jpg" class="card-img-top" alt="Laila on a bridge">
           <div class="card-body">
             <h5 class="card-title">Laila</h5>
-            <p class="card-text">I'm Laila, I'm 26 years old and live in the UK.<br>
+            <!--<p class="card-text">I'm Laila, I'm 26 years old and live in the UK.<br>
 
               I did a career switch to IT during the pandemic and I am quite new to coding. <br>
               I have done some self study on Freecodecamp and Udemy and this is
@@ -60,7 +60,23 @@
               I enjoy reading, traveling, being outdoors and eating out. I enjoy being active and do some at home yoga,
               running track and playing tennis.
             </p>
-            <a class="btn btn-primary expand">Read more</a>
+            <a class="btn btn-primary expand">Read more</a> -->
+            <p class="card-text">I'm Laila, I'm 26 years old and live in the UK.<br>
+
+              I did a career switch to IT during the pandemic and I am quite new to coding. <br>
+              I have done some self study on Freecodecamp and Udemy and this is
+              my first Code First Girls MOOC. I decided to do this MOOC to be able to put what I have learned into
+              practise.
+            </p>
+            <p class="extra-bio" data-state="hidden"> I have done some self study on Freecodecamp and Udemy and this is
+              my first Code First Girls MOOC. I decided to do this MOOC to be able to put what I have learned into
+              practise.<span id="dots">...</span><span id="more">My coding skills include HTML, CSS and I have started Javascript.
+
+                I enjoy reading, traveling, being outdoors and eating out. I enjoy being active and do some at home yoga,
+                running track and playing tennis.</span>
+
+            </p>
+            <button onclick="myFunction()" class="btn btn-primary expand" id="myBtn">Read more</button>
           </div>
         </div>
       </div>
@@ -73,9 +89,10 @@
               I am a newbie to all things code, and have taken the first step towards a new career by becoming a bootcamp student. <br>
               I am a mother to two small children, but now that my youngest has started school, I
               am hoping to embark on a new journey, and career.</p>
-            <p class="extra-bio" id="lil">I have a small business supplying bakers with cake toppers. I started in 2020 just before COVID hit, and luckily lockdown allowed home bakers to make their hobby a small business too, which created lots of new clients for me to supply cake toppers to on a regular basis.
+            <p class="extra-bio" data-state="hidden">I<span id="dotsLil">...</span><span id="moreLil"> have a small business supplying bakers with cake toppers. I started in 2020 just before COVID hit, and luckily lockdown allowed home bakers to make their hobby a small business too, which created lots of new clients for me to supply cake toppers to on a regular basis.</span>
             </p>
-            <a class="btn btn-primary expand">Read more</a>
+  
+            <button onclick="myFunctionLil()" class="btn btn-primary expand" id="myBtnLil">Read more</button>
           </div>
         </div>
       </div>
@@ -88,8 +105,8 @@
               I stopped when things started to reopen and I just restarted last autumn.<br>
               My focus has been Web Development starting with HTML and CSS and I am now doing basic Javascript.I also restarted Python. <br>
               This is my first shared project and I am really excited about that.</p>
-            <p class="extra-bio" id="cate" hidden>I have been for many years a book lover and I recently joined a book club. I like playing board games and experimenting with cooking.</p>
-            <a class="btn btn-primary expand">Read more</a>
+            <p class="extra-bio" id="cate" data-state="hidden">I <span id="dotsCate">...</span><span id="moreCate">have been for many years a book lover and I recently joined a book club. I like playing board games and experimenting with cooking.</span></p>
+            <button class="btn btn-primary expand" onclick="myFunctionCate()" id="myBtnCate">Read more</button>
           </div>
         </div>
       </div>
