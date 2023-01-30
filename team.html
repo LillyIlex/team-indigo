@@ -15,22 +15,18 @@
 <header>
   <nav id="nav">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand">Menu</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <a class="navbar-brand"></a>
         <ul class="navbar-nav">
+           <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>  
           <li class="nav-item active">
-            <a class="nav-link" href="team.html">Meet Team Indigo</a>
+            <a class="nav-link" href="#team-cards">Meet Team Indigo</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Work With us <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
+       
         </ul>
       </div>
     </nav>
@@ -43,95 +39,96 @@
 </header>
 
 <body>
-  <div class="container">
+  <div class="container" id="team-cards">
     <div class="row">
       <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+        <div class="card" style="max-width: 18rem;">
+          <img src="assets/Images/Laila.jpg" class="card-img-top" alt="Laila on a bridge">
           <div class="card-body">
             <h5 class="card-title">Laila</h5>
-            <p class="card-text">I’m Laila, I’m 26 years old and live in the UK.
+            <p class="card-text">I'm Laila, I'm 26 years old and live in the UK.<br>
 
-              I did a career switch to IT during the pandemic and I am quite new to coding.
-            </p>
-            <p class="extra-bio" data-state="hidden"> I have done some self study on Freecodecamp and Udemy and this is
+              I did a career switch to IT during the pandemic and I am quite new to coding. <br>
+              I have done some self study on Freecodecamp and Udemy and this is
               my first Code First Girls MOOC. I decided to do this MOOC to be able to put what I have learned into
               practise.
+            </p>
+            <p class="extra-bio" id="laila" hidden>
 
-              My coding skills include HTML, CSS and I have started Javascript.
+              My coding skills include HTML, CSS and I have started Javascript.<br>
 
               I enjoy reading, traveling, being outdoors and eating out. I enjoy being active and do some at home yoga,
               running track and playing tennis.
             </p>
-            <a href="#" class="btn btn-primary expand">Read more</a>
+            <a class="btn btn-primary expand">Read more</a>
           </div>
         </div>
       </div>
       <div class="col-sm">
         <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="assets/Images/Lil.jpg" class="card-img-top" alt="Lil profile picture">
           <div class="card-body">
             <h5 class="card-title">Lil</h5>
-            <p class="card-text">I am a newbie to all things code, and have taken the first step towards a new career by
-              becoming a bootcamp student. I am a mother to two small children, but now that they are both at school, I
+            <p class="card-text">I'm Lil, 30, from Manchester. <br>
+              I am a newbie to all things code, and have taken the first step towards a new career by becoming a bootcamp student. <br>
+              I am a mother to two small children, but now that my youngest has started school, I
               am hoping to embark on a new journey, and career.</p>
-            <p class="extra-bio" data-state="hidden">I have a small business supplying bakers with cake toppers. I
-              started in 2020 just before COVID hit, and luckily lockdown allowed home bakers to make their hobby a
-              small business too, which created lots of new clients for me to supply cake toppers to on a regular basis.
+            <p class="extra-bio" id="lil">I have a small business supplying bakers with cake toppers. I started in 2020 just before COVID hit, and luckily lockdown allowed home bakers to make their hobby a small business too, which created lots of new clients for me to supply cake toppers to on a regular basis.
             </p>
-            <a href="#" class="btn btn-primary">Read more</a>
+            <a class="btn btn-primary expand">Read more</a>
           </div>
         </div>
       </div>
       <div class="col-sm">
         <div class="card" style="width: 18rem;">
-          <img src="https://github.com/LillyIlex/team-indigo/blob/main/assets/Images/About%20Us_files/Cate_picture_CFG.jpeg" class="card-img-top" alt="Cate watches a Monet's painting">
+          <img src="assets\Images\Cate_picture_CFG.jpeg" alt="Cate watches a Monet's painting">
           <div class="card-body">
             <h5 class="card-title">Cate</h5>
             <p class="card-text">I started coding during lockdown and I played around Python on codeacademy. 
-              I stopped when things started to reopen and I just restarted last autumn.
-              My focus has been Web Development starting with HTML and CSS and I am now doing basic Javascript.I also restarted Python. 
+              I stopped when things started to reopen and I just restarted last autumn.<br>
+              My focus has been Web Development starting with HTML and CSS and I am now doing basic Javascript.I also restarted Python. <br>
               This is my first shared project and I am really excited about that.</p>
-            <p class="extra-bio" data-state="hidden">I have been for many years a book lover and I recently joined a book club. I like playing board games and experimenting with cooking.</p>
-            <a href="#" class="btn btn-primary expand">Read more</a>
+            <p class="extra-bio" id="cate" hidden>I have been for many years a book lover and I recently joined a book club. I like playing board games and experimenting with cooking.</p>
+            <a class="btn btn-primary expand">Read more</a>
           </div>
         </div>
       </div>
     </div>
+    <hr class="my-4">
     <div class="row">
       <div class="col-sm">
         <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <p class="extra-bio" data-state="hidden"></p>
-            <a href="#" class="btn btn-primary expand">Read more</a>
+            <p class="extra-bio"></p>
+            <a class="btn btn-primary expand">Read more</a>
           </div>
         </div>
       </div>
       <div class="col-sm">
         <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <p class="extra-bio" data-state="hidden"></p>
-            <a href="#" class="btn btn-primary expand">Read more</a>
+            <p class="extra-bio"></p>
+            <a class="btn btn-primary expand">Read more</a>
           </div>
         </div>
       </div>
       <div class="col-sm">
         <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <p class="extra-bio" data-state="hidden"></p>
-            <a href="#" class="btn btn-primary expand">Read more</a>
+            <p class="extra-bio" hidden></p>
+            <a class="btn btn-primary expand">Read more</a>
           </div>
         </div>
       </div>

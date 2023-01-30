@@ -1,10 +1,12 @@
 #nav {
     display: inline-block;
     position: relative;
-    left: 60vw;
+    left: 60%;
 }
 
-#nav-item:hover {}
+#nav-item:hover {
+    
+}
 
 
 #cfg-jumbo-img {
@@ -37,3 +39,5 @@ footer {
     display: block;
     text-align: center;
 }
+
+/* media query to make nav bar responsive for mobile viewpoint */

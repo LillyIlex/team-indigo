@@ -16,8 +16,14 @@ $(document).ready(function () {
   setInterval(update, 1000);
 });
 
-//event listener on 'Read more! button
-$(".expand").on("click", function (event) {
-  event.preventDefault();
-  //.$(".extra-bio")data state hidden .remove()
+//event listener on 'Read more' button
+var extraBio = document.querySelector(".extra-bio");
+var expandBtn = document.querySelector(".expand");
+
+for (i=0; i < extraBio.length; i++) {
+  extraBio[i].setAttribute("data-state", "hidden")
+}
+
+expandBtn.addEventListener("click", function () {
+  extraBio.removeAttribute("hidden")
 });
