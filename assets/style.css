@@ -4,13 +4,13 @@
     left: 60%;
 }
 
-#nav-item:hover {
-    
+.team-jumbo {
+    margin-left: 20px;
 }
-
 
 #cfg-jumbo-img {
     width: 100vw;
+    margin-left: 5px;
 }
 
 .btn {
@@ -21,18 +21,33 @@
     padding: 20px;
 }
 
-.team-header {
+#team-header {
     position: absolute;
-    left: 50%;
+    color: indigo;
+    left: 55%;
     top: 20%;
-    font-size: 32pt;
+    font-size: 70px;
+    font-weight: bolder;
+    padding: 20px;
+    border: solid 2px indigo
 }
 
 
-.team-intro {
+#team-text {
     position: absolute;
     left: 50%;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 60px;
     top: 40%;
+}
+
+.card {
+    text-align: center;
+   }
+
+.card-img-top:hover {
+    transform: scale(1.1);
 }
 
 footer {
@@ -41,4 +56,31 @@ footer {
 }
 
 #more, #moreLil, #moreCate {display: none;}
+
+
 /* media query to make nav bar responsive for mobile viewpoint */
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+  
+    #cfg-story-img {
+    max-width: 40vw;
+  }
+   #team-header {
+    max-width: 80%;
+    font-size: 80%;
+    left: 55%;
+    margin-top: 30px;
+   }
+
+   #team-text {
+   visibility: hidden;
+   }
+
+   .card {
+    margin-left: 30px;
+   }
+ 
+  #nav {
+  left:25%;
+  text-align: center;
+}
+}
