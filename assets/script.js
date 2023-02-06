@@ -90,3 +90,19 @@ function myFunctionNatalie() {
     moreText.style.display = "inline";
   }
 }
+
+function myFunctionLuLu() {
+  var dots = document.getElementById("dotsLulu");
+  var moreText = document.getElementById("moreLulu");
+  var btnText = document.getElementById("myBtnLulu");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
