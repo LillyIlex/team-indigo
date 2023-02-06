@@ -106,3 +106,18 @@ function myFunctionLulu() {
     moreText.style.display = "inline";
   }
 }
+
+function myFunctionKat() {
+  var dots = document.getElementById("dotsKat");
+  var moreText = document.getElementById("moreKat");
+  var btnText = document.getElementById("myBtnKat");
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
