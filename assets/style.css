@@ -6,6 +6,11 @@
     margin-top: 0px;
     display: flex;
     justify-content: end;
+    text-decoration: underline;
+}
+.nav-link:hover, #team-btn:hover {
+    transform: scale(1.2);
+
 }
 
 h1.display-4 {
@@ -49,18 +54,10 @@ p.lead {
     margin-left: 5px;
 }
 
-.btn {
-    margin: 10px
-}
-
-
-a.team-btn {
-    justify-content: end;
-}
-
 #team-btn {
     background-color: indigo;
     border: solid 2px black;
+    margin-left: 70%;
 }
 
 #team-header {
