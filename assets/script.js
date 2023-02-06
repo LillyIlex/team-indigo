@@ -91,7 +91,7 @@ function myFunctionNatalie() {
   }
 }
 
-function myFunctionLuLu() {
+function myFunctionLulu() {
   var dots = document.getElementById("dotsLulu");
   var moreText = document.getElementById("moreLulu");
   var btnText = document.getElementById("myBtnLulu");
