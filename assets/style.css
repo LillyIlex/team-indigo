@@ -1,13 +1,16 @@
 #nav {
     display: inline-block;
     position: relative;
-    left: 60%;
+    left: 80%;
 }
 
 .team-jumbo {
     margin-left: 20px;
 }
-
+#team-text {
+    text-align: center;
+    padding-left: 10%;
+}
 #cfg-jumbo-img {
     width: 100vw;
     margin-left: 5px;
@@ -61,13 +64,13 @@ footer {
 
 
 /* media query to make nav bar responsive for mobile viewpoint */
-@media only screen and (min-width: 300px) and (max-width: 900px) {
+@media only screen and (min-width: 300px) and (max-width: 1100px) {
   
     #cfg-story-img {
     max-width: 40vw;
   }
    #team-header {
-    max-width: 80%;
+    max-width: 450px;
     font-size: 80%;
     left: 55%;
     margin-top: 30px;
@@ -78,11 +81,11 @@ footer {
    }
 
    .card {
-    margin-left: 30px;
+    margin-left: 40px;
    }
  
   #nav {
-  left:25%;
+  left:55%;
   text-align: center;
 }
 }
