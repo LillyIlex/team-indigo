@@ -76,7 +76,7 @@ function myFunctionCate() {
 }
 
 function myFunctionNatalie() {
-  var dots = document.getElementById("dotsNatlie");
+  var dots = document.getElementById("dotsNatalie");
   var moreText = document.getElementById("moreNatalie");
   var btnText = document.getElementById("myBtnNatalie");
 
