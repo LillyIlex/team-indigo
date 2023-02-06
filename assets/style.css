@@ -1,18 +1,51 @@
 #nav {
-    display: inline-block;
+    display: inline;
     position: relative;
-    left: 80%;
+    font-size: 18pt;
+    padding: 20px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: end;
+}
+
+h1.display-4 {
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(190, 150, 228);
+    padding: 20px;
+     border: solid 2px indigo;
+}
+
+.lead {
+    padding: 10px;
+    text-align: center;
+}
+
+p.lead {
+    font-size: 20pt;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+#jumbo-bio {
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(190, 150, 228);
+    padding: 20px;
 }
 
 .team-jumbo {
     margin-left: 20px;
 }
+
 #team-text {
     text-align: center;
     padding-left: 10%;
 }
+
 #cfg-jumbo-img {
-    width: 100vw;
+    width: 95vw;
     margin-left: 5px;
 }
 
@@ -20,19 +53,24 @@
     margin: 10px
 }
 
-.footer.p {
-    padding: 20px;
+
+a.team-btn {
+    justify-content: end;
+}
+
+#team-btn {
+    background-color: indigo;
+    border: solid 2px black;
 }
 
 #team-header {
-    position: absolute;
     color: indigo;
-    left: 55%;
-    top: 20%;
     font-size: 70px;
     font-weight: bolder;
     padding: 20px;
-    border: solid 2px indigo
+    border: solid 2px indigo;
+    position: absolute;
+    left: 55%
 }
 
 
@@ -47,7 +85,7 @@
 
 .card {
     text-align: center;
-   }
+}
 
 .card-img-top:hover {
     transform: scale(1.1);
@@ -56,36 +94,55 @@
 footer {
     display: block;
     text-align: center;
+    color: white;
+    padding-bottom: 5px;
+    margin: 5px;
+    font-size: 15pt;
+    background-color: rgb(190, 150, 228);
 }
 
-#more, #moreLil, #moreCate,#moreLulu,#moreNatalie, #moreKat {
+#more,
+#moreLil,
+#moreCate,
+#moreLulu,
+#moreNatalie,
+#moreKat {
     display: none;
 }
 
 
 /* media query to make nav bar responsive for mobile viewpoint */
 @media only screen and (min-width: 300px) and (max-width: 1100px) {
-  
+
     #cfg-story-img {
-    max-width: 40vw;
-  }
-   #team-header {
-    max-width: 450px;
-    font-size: 80%;
-    left: 55%;
-    margin-top: 30px;
-   }
+        max-width: 40vw;
+    }
 
-   #team-text {
-   visibility: hidden;
-   }
+    #team-header {
+        max-width: 450px;
+        font-size: 80%;
+        left: 55%;
+        margin-top: 30px;
+    }
 
-   .card {
-    margin-left: 40px;
-   }
- 
-  #nav {
-  left:55%;
-  text-align: center;
-}
+    #team-text {
+        visibility: hidden;
+    }
+
+    .card {
+        margin-left: 40px;
+    }
+
+    #nav {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #team-jumbo {
+        margin-top: 20px;
+        height: auto;
+        background-color: rgb(190, 150, 228);
+        padding: 20px;
+    }
 }
