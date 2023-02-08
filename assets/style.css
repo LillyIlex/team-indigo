@@ -1,24 +1,31 @@
-#nav {
+nav#nav {
     display: inline;
     position: relative;
     font-size: 18pt;
-    padding: 20px;
-    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 10px;
     display: flex;
     justify-content: end;
     text-decoration: underline;
+    background-color: rgb(190, 150, 228)!important;
 }
-.nav-link:hover, #team-btn:hover {
-    transform: scale(1.2);
 
+.nav-link:hover,
+#team-btn:hover {
+    transform: scale(1.1);
+}
+
+a.nav-link {
+    color: white!important;
 }
 
 h1.display-4 {
+    color: indigo;
     text-align: center;
     font-weight: bolder;
     background-color: rgb(190, 150, 228);
     padding: 20px;
-     border: solid 2px indigo;
+    border: solid 2px indigo;
 }
 
 .lead {
@@ -34,14 +41,17 @@ p.lead {
 
 #jumbo-bio {
     font-size: 18pt;
+    width: 95vw;
+    justify-content: center;
     font-weight: bold;
     text-align: center;
     background-color: rgb(190, 150, 228);
-    padding: 20px;
+    padding: 20px;  
 }
 
 .team-jumbo {
     margin-left: 20px;
+ 
 }
 
 #team-text {
@@ -50,14 +60,15 @@ p.lead {
 }
 
 #cfg-jumbo-img {
-    width: 95vw;
-    margin-left: 5px;
+    width: 94vw;
+
 }
 
 #team-btn {
     background-color: indigo;
     border: solid 2px black;
     margin-left: 70%;
+    margin-bottom: 10px;
 }
 
 #team-header {
@@ -67,17 +78,20 @@ p.lead {
     padding: 20px;
     border: solid 2px indigo;
     position: absolute;
-    left: 55%
+    left: 57%;
+    margin-top: 10px; 
 }
 
 
 #team-text {
     position: absolute;
     left: 50%;
-    font-size: 25px;
+    max-width: 40%;
+    font-size: 30pt;
     font-weight: 600;
     margin-top: 60px;
     top: 40%;
+    color: indigo;
 }
 
 .card {
@@ -107,6 +121,9 @@ footer {
     display: none;
 }
 
+.link {
+    color: purple !important;
+}
 
 /* media query to make nav bar responsive for mobile viewpoint */
 @media only screen and (min-width: 300px) and (max-width: 1100px) {
@@ -118,12 +135,16 @@ footer {
     #team-header {
         max-width: 450px;
         font-size: 80%;
-        left: 55%;
+        left: 65%;
         margin-top: 30px;
     }
 
     #team-text {
-        visibility: hidden;
+        position: absolute;
+        left: 50%;
+       top: 20%;
+       font-size: 10pt;
+       max-width: 50%;
     }
 
     .card {
